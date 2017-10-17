@@ -1,0 +1,8 @@
+select messiers where ra < 40
+select stars where ra < 400 ra > 40
+select stars where distance > 300
+selekt messiers where ra > 40
+select messiers where distance = 60000000.0
+select planets
+select stars where ra > 60 and ra < 90 and decl < 10 and decl > 0
+select messiers where ra > forty

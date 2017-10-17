@@ -1,0 +1,18 @@
+select messiers where ra < 40
+select stars where distance > 300
+select stars where magnitude < 2
+select stars where distance >= 300 and magnitude >= 4.5
+select planets where albedo >= 0.55 and ra <= 300
+select planets where albedo < 0.6 and ra > 150
+select stars where ra < 150 and ra > 155
+select stars where ra < 150 and ra > 145
+select stars where ra < 150 and ra > 145 and ra > 19 and ra > 18 and ra > 17 and ra > 16
+select stars where ra < 150 and ra >= 20 and decl >= 10 and decl < 40
+select messiers where distance = 60000000.0
+stars where ra < 150
+select stores where ra > 160
+select stars where ra and decl > 60
+select stars where ra >> 60
+select stars where ra > 60 and ra <60 and
+select planets
+select stars where ra > 60 and ra < 90 and decl < 10 and decl > 0
